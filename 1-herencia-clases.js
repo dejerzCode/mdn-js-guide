@@ -37,9 +37,9 @@ class Engineer extends WorkerBee {
     }
 }
 
-
 // Ejecución
 
+/*
 let e = new Employee();
 console.log(`Employee ${JSON.stringify(e)}`);
 
@@ -54,3 +54,6 @@ console.log(`SalesPerson ${JSON.stringify(s)}`)
 
 let n = new Engineer();
 console.log(`Engineer ${JSON.stringify(n)}`)
+*/
+
+export {Employee, Manager, WorkerBee, SalesPerson, Engineer}
